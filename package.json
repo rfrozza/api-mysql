@@ -1,0 +1,30 @@
+{
+  "name": "projeto-api-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfrozza/api-mysql.git"
+  },
+  "author": "renan frozza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfrozza/api-mysql/issues"
+  },
+  "homepage": "https://github.com/rfrozza/api-mysql#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "consign": "^0.1.6",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
